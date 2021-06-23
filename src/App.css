@@ -1,0 +1,36 @@
+.header {
+  height: 50px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigationbar {
+  height: 50px;
+  background-color: rgb(62, 119, 119);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.singerContent {
+  display: flex;
+  background-color: chartreuse;
+  height: 350px;
+  width: 250px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 50px;
+  background-color: rgb(47, 82, 19);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
