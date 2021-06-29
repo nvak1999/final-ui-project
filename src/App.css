@@ -253,3 +253,36 @@ button:focus {
 #gg {
   color: orange;
 }
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 184, 68, 255);
+}
+.detail-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+}
+.detail-content img {
+  height: 35%;
+  width: 95%;
+  align-self: flex-start;
+  margin: 20px;
+}
+#i-detail {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.share-detail i {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.share-detail {
+  margin-bottom: 20px;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const SingerContent = ({ name, decription, price, picture, time, address }) => {
   return (
-    <Link className="Link">
+    <Link to="/detail" className="Link">
       <div className="singerContent">
         <img src="picture/a2.jpg" alt="" />
         <p className="p-name">Name: Assssssssssss</p>
