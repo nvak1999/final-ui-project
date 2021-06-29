@@ -8,7 +8,7 @@ const Detail = () => {
         <p className="p-name">Asssssssss</p>
         <p className="p-p">Price: 450000$</p>
         <p className="p-d">
-          có bộ tranh 4 mùa gồm 4 bức ,khổ 108 cm x 57 cm , dạng tranh vải khung
+          Có bộ tranh 4 mùa gồm 4 bức ,khổ 108 cm x 57 cm , dạng tranh vải khung
           tranh đẹp vững chắc mặt kính , còn khá đẹp - Đang để ở xưởng mộc nên
           nó dính bụi chỉ mang về lau sạch bụi là ngon lành ngay - Giá trên là
           tất cả 4 bức ,miễn phí ship loanh quanh khu vực nội thành hà nội,Quý

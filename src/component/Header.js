@@ -6,7 +6,9 @@ const Header = () => {
     <div className="mother-div">
       <div className="header">
         <div className="header-top">
-          <img src="picture/WEB13.png" alt="" />
+          <Link to="/" className="Link">
+            <img src="picture/WEB13.png" alt="" />
+          </Link>
           <div className="item-top">
             <Link className="Link">
               <div className="item">
