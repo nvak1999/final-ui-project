@@ -6,7 +6,8 @@ import Loginpage from "../page/Loginpage";
 import Registerpage from "../page/Registerpage";
 import ProfilePage from "../page/ProfilePage";
 import Detailpage from "../page/Detailpage";
-import CartPage from "../page/CartPage";
+import CartPage from "../page/Cartpage";
+import BuyPage from "../page/Cart/Buypage";
 const Homepage = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const Homepage = () => {
         <Route exact path="/profile" component={ProfilePage} />
         <Route exact path="/detail" component={Detailpage} />
         <Route exact path="/cart" component={CartPage} />
+        <Route exact path="/buy" component={BuyPage} />
       </Switch>
     </div>
   );
