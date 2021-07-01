@@ -1,9 +1,10 @@
 import React from "react";
-
+import Header from "../component/Header";
+import Footer from "../component/Footer";
 const CartPage = () => {
   return (
     <div className="cart">
-      <div className="header">header</div>
+      <Header></Header>
       <div className="menuline">
         <div>
           <input type="checkbox" name="" id="" />
@@ -293,9 +294,7 @@ const CartPage = () => {
         </div>
       </div>
 
-      <div className="footer">
-        <p>FOOTER</p>
-      </div>
+      <Footer></Footer>
     </div>
   );
 };

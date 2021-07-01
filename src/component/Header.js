@@ -55,13 +55,13 @@ const Header = () => {
             </p>
           </div>
           <div className="button-header">
-            <Link className="Link">
+            <Link to="/login" className="Link">
               <div className="button-login">
                 <i class="fas fa-user"></i>
                 <p>Đăng nhập</p>
               </div>
             </Link>
-            <Link className="Link">
+            <Link to="/cart" className="Link">
               <div className="button-cart">
                 <i class="fas fa-cart-plus"></i>
                 <p>Giỏ hàng</p>
