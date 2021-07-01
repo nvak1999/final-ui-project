@@ -358,7 +358,7 @@ button:focus {
   align-items: center;
   flex-direction: row;
   padding-bottom: 70px;
-  margin-bottom: 70px;
+
   padding-top: 50px;
   border-bottom: solid 1px #888888;
   background-color: rgba(221, 221, 221, 0.493);
@@ -393,4 +393,337 @@ button:focus {
   align-items: center;
   flex-direction: column;
   background-color: rgba(221, 221, 221, 0.493);
+}
+/*Loginpage.css*/
+.login {
+  width: 100%;
+  height: 500px;
+}
+.login form {
+  width: 425px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 2px 2px rgb(219, 125, 125), 0 0 4px 4px rgb(161, 161, 161);
+}
+.login h2 {
+  align-items: flex-start;
+}
+.login input {
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border: 1px rgb(139, 133, 133) solid;
+  border-radius: 5px;
+}
+.login button {
+  width: 300px;
+  height: 35px;
+  color: #fff;
+  background-color: rgb(216, 212, 212);
+  font-size: 15px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.login a {
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.login p {
+  width: 300px;
+  height: 35px;
+  color: rgb(82, 83, 83);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+/*-------------------------------------------------------*/
+
+/*Registerpage.css*/
+.register {
+  width: 100%;
+  height: 500px;
+}
+.register form {
+  width: 425px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 2px 2px rgb(219, 125, 125), 0 0 4px 4px rgb(161, 161, 161);
+}
+.register h2 {
+  align-items: flex-start;
+}
+.register input {
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border: 1px rgb(139, 133, 133) solid;
+  border-radius: 5px;
+}
+.register button {
+  width: 300px;
+  height: 35px;
+  color: #fff;
+  background-color: rgb(216, 212, 212);
+  font-size: 15px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.register a {
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.register p {
+  width: 300px;
+  height: 35px;
+  color: rgb(82, 83, 83);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+/*--------------------------------------------------------*/
+/*repasswordpage*/
+
+.newpassword {
+  width: 100%;
+  height: 500px;
+}
+.newpassword form {
+  width: 425px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 2px 2px rgb(219, 125, 125), 0 0 4px 4px rgb(161, 161, 161);
+}
+.newpassword input {
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border: 1px rgb(139, 133, 133) solid;
+  border-radius: 5px;
+}
+.newpassword button {
+  width: 300px;
+  height: 35px;
+  color: #fff;
+  background-color: rgb(216, 212, 212);
+  font-size: 15px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/*-----------------------------------------------------------*/
+/*Cartpage.css*/
+.header {
+  color: white;
+}
+.cart {
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  margin-top: 15px;
+}
+.menuline {
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuline .menuline_content {
+  width: 300px;
+}
+.product {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.product .pro_namecontent {
+  width: 300px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.product .pro_namecontent a {
+  color: black;
+  margin-left: 5px;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.product .pro_quantity #quantity {
+  width: 15px;
+}
+
+.buy {
+  width: 80%;
+  max-height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 13px;
+  /*position: fixed;
+    bottom: 0;
+    right: 145px;*/
+}
+.buy .buy_total {
+  display: flex;
+}
+.buy input {
+  border: none;
+  background-color: #fff;
+}
+.buy #buy2 {
+  border: none;
+  background-color: rgb(252, 131, 62);
+}
+.footer {
+  height: 500px;
+  background-color: black;
+  color: #fff;
+}
+
+/*------------------------------------------------------*/
+/*Buypage.css*/
+.buypage {
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+}
+.content_address {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 10px;
+}
+.content_address .subcontent_address1 {
+  margin-left: 15px;
+}
+.content_address .subcontent_address2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.content_product1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 15px;
+}
+.content_product1 .subcontent_sanpham {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_product2 {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.content_product2 .subcontent_detail {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content_product2 a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+}
+.content_product2 .subcontent_detail p {
+  margin-left: 5px;
+  color: rgb(175, 175, 174);
+}
+.content_product3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.content_PTTT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_detailPTTT {
+  justify-content: flex-end;
+  align-items: center;
+}
+.sub1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sub2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sub3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.okbuy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.okbuy input {
+  border: none;
+  border-radius: 3px;
+  background-color: #ee4d2d;
+  width: 220px;
+  height: 45px;
 }
