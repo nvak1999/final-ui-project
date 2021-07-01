@@ -29,9 +29,20 @@ const Header = () => {
               </div>
             </Link>
             <Link className="Link">
-              <div className="item">
+              <div className="item" id="hover-add">
                 <i class="far fa-plus-square"></i>
-                <p>Thêm</p>
+                <p className="hover-content">Thêm</p>
+                <div class="dropdown-content">
+                  <Link to="/profile" className="Link">
+                    <p>Xem trang cá nhân</p>
+                  </Link>
+                  <Link className="Link">
+                    <p>Khuyến mải</p>
+                  </Link>
+                  <Link className="Link">
+                    <p>Đăng xuất</p>
+                  </Link>
+                </div>
               </div>
             </Link>
           </div>
