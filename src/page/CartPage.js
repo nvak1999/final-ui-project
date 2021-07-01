@@ -39,7 +39,7 @@ const CartPage = () => {
         <input type="button" value="+"/>
       </div>
       <div><p>total</p></div>
-      <div><input type="button" value="xóa" /></div>
+      <div><input type="button" value="xóa" /></div> 
     </div>
     <div className="product">
       <div>
